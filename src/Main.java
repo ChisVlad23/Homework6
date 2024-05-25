@@ -13,7 +13,7 @@ public class Main {
         System.out.println(gionel.toString());
         System.out.println(cornel.toString());
 
-
+        System.out.println("-------------------------------------------------------------------------------------------------");
         // ex 3 now we play with alimente
         Product detergent = new Product("Dero", 69, 3, "sapun");
         Product salam = new Product("De caine", 9,0,"mezeluri");
@@ -28,6 +28,9 @@ public class Main {
 
         System.out.println(bricheta.toString());
         System.out.println(salam.isCategory("mata"));
+
+        System.out.println("-------------------------------------------------------------------------------------------------");
+
 
     // create a bootle and do whatever u want with that
 

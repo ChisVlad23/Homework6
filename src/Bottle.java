@@ -20,6 +20,7 @@ public class Bottle {
     }
 
     Integer howMuchLiquid(){
+        if(availableLiquid > totalCapacity) {availableLiquid = totalCapacity;}
 return  totalCapacity - availableLiquid;
     }
 
